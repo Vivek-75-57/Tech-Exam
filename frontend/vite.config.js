@@ -9,7 +9,7 @@ export default defineConfig({
     open: true,
     proxy: {
       "/api": {
-        target: "http://localhost:3003",
+        target: "https://tech-exam-production.up.railway.app",
         changeOrigin: true,
         rewrite: (path) => path,
       },
